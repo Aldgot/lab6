@@ -6,7 +6,7 @@ public class fclass1 {
         System.out.println("В этом классе содержится метод main()");
     }
 
-    public static void fclass1(String[] args) {
+    public static void main(String[] args) {
         new fclass1().method();
         new fclass2().method();
         new fclass3().method();
